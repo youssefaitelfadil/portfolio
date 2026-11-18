@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e0f0d">
+  <meta name="description" content="Portfolio de Youssef Ait El Fadil — Étudiant en classe de seconde, Maroc.">
+  <title>Youssef Ait El Fadil — Portfolio</title>
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem("nisrx-theme")||"dark"}catch(e){document.documentElement.dataset.theme="dark"}</script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Accueil">Youssef Ait El Fadil</a>
+
+    <nav class="desktop-nav" aria-label="Navigation principale">
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#timeline">Parcours</a>
+      <a href="#contact">Contact</a>
+      <button class="profile-trigger" type="button" data-open-profile>Fiche <span>↗</span></button>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Mode sombre / clair" title="Mode sombre / clair"><span aria-hidden="true">◐</span></button>
+    </nav>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Ouvrir la navigation">
+      <span></span><span></span>
+    </button>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navigation mobile" hidden>
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#timeline">Parcours</a>
+      <a href="#contact">Contact</a>
+      <button type="button" data-open-profile>Ouvrir la fiche ↗</button>
+      <button type="button" data-theme-toggle>Mode sombre / clair ◐</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="about">
+      <div class="hero-background">
+        <img class="hero-photo" src="images/photos/uniforme.jpg" alt="Youssef Ait El Fadil avec son uniforme.">
+        <div class="hero-gradient"></div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFOLIO / Casablanca, MAROC</p>
+        <h1>Youssef<span class="h1-last">Ait El Fadil</span></h1>
+        <p>Étudiant en classe de seconde à l'école AlJabr. Curieux, autonome,<br class="desktop-break"> à l'aise sur le terrain comme derrière un écran.</p>
+      </div>
+      <span class="hero-index">01 — 05</span>
+    </section>
+
+    <div class="page-content">
+      <div class="section-heading" id="skills">
+        <span>CE QUE JE SAIS FAIRE</span>
+        <span>COMPÉTENCES / 01—03</span>
+      </div>
+
+      <section class="interest-grid" aria-label="Compétences">
+        <article class="interest-card">
+          <img class="card-photo" src="images/photos/Compétences techniques.jpg" alt="">
+          <div class="card-overlay"></div>
+          <div class="card-topline"><span>01</span><span>TECHNIQUE</span></div>
+          <div class="card-copy">
+            <h2>Compétences techniques</h2>
+            <p>Maîtrise de Canva, Microsoft Office, OBS Studio, du montage vidéo et des bases du HTML/CSS.</p>
+          </div>
+        </article>
+
+        <article class="interest-card">
+          <img class="card-photo" src="images/photos/Sens des responsabilités.jpg" alt="">
+          <div class="card-overlay"></div>
+          <div class="card-topline"><span>02</span><span>TERRAIN / SECOURS</span></div>
+          <div class="card-copy">
+            <h2>Sens des responsabilités</h2>
+            <p>Premiers secours, rigueur et travail en équipe.</p>
+          </div>
+        </article>
+
+        <article class="interest-card">
+          <img class="card-photo" src="images/photos/Autonomie.jpg" alt="">
+          <div class="card-overlay"></div>
+          <div class="card-topline"><span>03</span><span>ÉTAT D'ESPRIT</span></div>
+          <div class="card-copy">
+            <h2>Autonomie</h2>
+            <p>Curiosité, endurance et apprentissage continu.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="feature-grid" id="languages" aria-label="Photo et langues">
+        <figure class="photo-panel">
+          <img src="images/photos/marina-agadir.jpg" alt=" ">
+          <figcaption> </figcaption>
+        </figure>
+
+        <article class="languages-panel">
+          <div class="languages-info">
+            <span class="eyebrow">LANGUES</span>
+            <div class="language-detail">
+              <div class="language-count">
+                <strong>5</strong>
+                <span class="learning-plus">&thinsp; +2</span>
+              </div>
+              <p id="language-status">Et deux autres en cours — l'hébreu<br class="desktop-break"> et l'espagnol.</p>
+            </div>
+          </div>
+
+          <div class="flag-ribbons" aria-label="Langues, de la plus maîtrisée à celles en apprentissage">
+            <div class="flag-strip" data-lang="Amazigh (Tamazight) — Langue maternelle">
+              <img class="flag-img" src="images/flags/amazigh.png" alt="Drapeau amazigh"><span class="flag-label">Amazigh</span>
+            </div>
+            <div class="flag-strip" data-lang="Français — Courant">
+              <img class="flag-img" src="images/flags/france.png" alt="Drapeau français"><span class="flag-label">Français</span>
+            </div>
+            <div class="flag-strip" data-lang="Darija (marocain) — Courant">
+              <img class="flag-img" src="images/flags/morocco.png" alt="Drapeau marocain"><span class="flag-label">Darija</span>
+            </div>
+            <div class="flag-strip" data-lang="Anglais — Courant">
+              <img class="flag-img" src="images/flags/uk.png" alt="Drapeau britannique"><span class="flag-label">Anglais</span>
+            </div>
+            <div class="flag-strip" data-lang="Arabe (standard) — Parlé">
+              <img class="flag-img" src="images/flags/saudi.png" alt="Drapeau saoudien"><span class="flag-label">Arabe</span>
+            </div>
+            <div class="flag-strip is-learning" data-lang="Espagnol — En apprentissage">
+              <img class="flag-img" src="images/flags/spain.png" alt="Drapeau espagnol"><span class="flag-label">Espagnol</span>
+            </div>
+            <div class="flag-strip is-learning" data-lang="Hébreu — En apprentissage">
+              <img class="flag-img" src="images/flags/israel.png" alt="Drapeau israélien"><span class="flag-label">Hébreu</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <div class="section-heading section-gap" id="timeline">
+        <span>DU COLLÈGE À AUJOURD'HUI</span>
+        <span>PARCOURS</span>
+      </div>
+
+<ol class="timeline">
+
+  <li class="tl-item">
+    <div class="tl-card">
+      <span class="tl-date">2022 – 2026</span>
+      <h3>Collège</h3>
+      <p>École Al Jabr, Bouskoura. Parcours dans le système éducatif français et obtention du brevet.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-card">
+      <span class="tl-date">2024</span>
+      <h3>ASSR</h3>
+      <p>Attestation scolaire de sécurité routière.</p>
+      <span class="tl-tag">CERTIFICATION</span>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-card">
+      <span class="tl-date">2025</span>
+      <h3>Formation aux premiers secours</h3>
+      <p>École Al Jabr, Bouskoura.</p>
+      <span class="tl-tag">CERTIFICATION</span>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-card">
+      <span class="tl-date">2025</span>
+      <h3>Design & création d'une marque de vêtements, <a href="https://nisr-xdivision.github.io/NISR-X-Division/index.html">NISR-X Division</a>
+</h3>
+      <p>Conception de l'identité visuelle et développement d'un projet de marque personnelle.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-card">
+      <span class="tl-date">2026</span>
+      <h3>Stage d'observation de 3ᵉ</h3>
+      <p>Stage d'observation dans une usine de plastique et de recyclage.</p>
+      <span class="tl-tag">STAGE</span>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-card">
+      <span class="tl-date">2026 – Aujourd'hui</span>
+      <h3>Lycée</h3>
+      <p>École Al Jabr, Bouskoura. Classe de Seconde générale.</p>
+    </div>
+  </li>
+</ol>
+
+      <section class="contact-panel" id="contact" aria-label="Contact">
+        <span class="closing-label">CONTACT</span>
+        <h2>Travaillons<br>ensemble.</h2>
+        <ul class="contact-list">
+          <li><span>E-MAIL</span><a href="mailto:prenom.nom@gmail.com">1youssefaitelfadil@gmail.com</a></li>
+          <li><span>VILLE / PAYS</span><b>Casablanca, Maroc</b></li>
+          <li><span>SITE</span><a href="https://github.com/YoussefAitElFadil">YoussefAitElFadil.github.io</a></li>
+        </ul>
+      </section>
+
+      <p class="footer-meta"><span>Youssef Ait El Fadil — PORTFOLIO</span><span>© 2026</span></p>
+    </div>
+  </main>
+
+  <dialog class="profile-dialog" id="profile-dialog" aria-labelledby="profile-title">
+    <div class="profile-shell">
+      <div class="profile-topbar">
+        <span>FICHE PERSONNELLE / N° 001</span>
+        <button class="dialog-close" type="button" aria-label="Fermer la fiche" data-close-profile>×</button>
+      </div>
+
+      <div class="profile-heading">
+        <div>
+          <p class="profile-eyebrow">FICHE D'IDENTIFICATION</p>
+          <h2 id="profile-title">À propos<span>.</span></h2>
+        </div>
+        <img class="profile-avatar" src="images/profile/pfp.jpg" alt="Portrait">
+      </div>
+
+      <p class="profile-intro">L'essentiel sur la personne derrière ce portfolio.</p>
+
+      <div class="profile-dossier">
+        <div class="profile-item"><span class="item-label">NOM / PRÉNOM</span><p class="item-value">Youssef Ait El Fadil</p></div>
+        <div class="profile-item"><span class="item-label">ALIAS</span><p class="item-value">Nisrx</p></div>
+        <div class="profile-item"><span class="item-label">ÂGE</span><p class="item-value">15 ans</p></div>
+        <div class="profile-item"><span class="item-label">VILLE / PAYS</span><p class="item-value">Casablanca, Maroc</p></div>
+        <div class="profile-item item-wide"><span class="item-label">LANGUES</span><p class="item-value">Amazigh, français, darija, anglais, arabe — en apprentissage : espagnol et hébreu</p></div>
+        <div class="profile-item item-wide"><span class="item-label">À PROPOS</span><p class="item-value">Étudiant marocain en classe de Seconde au lycée Al Jabr. Polyglotte, intéressé par l'entrepreneuriat, l'économie et les relations internationales.</p></div>
+      </div>
+
+      <div class="profile-bottom">
+        <span>Youssef Ait El Fadil / PROFIL</span>
+        <span>ⴰⵣⵓⵍ — ⵣ</span>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
